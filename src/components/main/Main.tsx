@@ -16,6 +16,8 @@ import boostrapIcon from "assets/bootstrap-icon.svg";
 import cssIcon from "assets/css-icon.svg";
 import AngularIcon from "assets/angular-icon.svg";
 import WebpackIcon from "assets/webpack-icon.svg";
+import Profile from "components/profile/Profile";
+import { About } from "components/about/About";
 const Main = () => {
   const customInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
@@ -32,7 +34,7 @@ const Main = () => {
             zIndex: 1,
           },
           detectRetina: true,
-          fpsLimit: 60,
+          fpsLimit: 120,
           interactivity: {
             events: {
               onClick: {
@@ -105,7 +107,7 @@ const Main = () => {
                 enable: false,
                 rotate: {
                   x: 600,
-                  y: 2400,
+                  y: 1400,
                 },
               },
               bounce: true,
@@ -259,6 +261,8 @@ const Main = () => {
           },
         }}
       />
+      <Profile />
+      <About />
     </Container>
   );
 };
