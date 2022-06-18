@@ -1,6 +1,5 @@
 import { Container } from "./style";
 import { motion } from "framer-motion";
-import profileImage from "../../assets/profile-image.jpg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -136,6 +135,17 @@ export function About() {
               }}
             >
               <img src={typescriptIcon} alt="React" />
+            </motion.div>
+          </div>
+          <div className="hability">
+            <motion.div
+              {...useScroll()}
+              variants={{
+                visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
+                hidden: { opacity: 0, y: -10 },
+              }}
+            >
+              <img src={jsIcon} alt="React" />
             </motion.div>
           </div>
         </div>

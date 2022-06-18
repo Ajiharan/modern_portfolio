@@ -18,6 +18,7 @@ import AngularIcon from "assets/angular-icon.svg";
 import WebpackIcon from "assets/webpack-icon.svg";
 import Profile from "components/profile/Profile";
 import { About } from "components/about/About";
+import Portfolio from "components/portfolio/Portfolio";
 const Main = () => {
   const customInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
@@ -263,6 +264,7 @@ const Main = () => {
       />
       <Profile />
       <About />
+      <Portfolio />
     </Container>
   );
 };

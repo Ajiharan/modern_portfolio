@@ -1,20 +1,27 @@
 import { useAnimation } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
-const useScroll = () => {
+const useScroll = (customClass?: string) => {
   const control = useAnimation();
   const [ref, inView] = useInView();
+  const classRef = useRef<string | null>();
 
   useEffect(() => {
     if (inView) {
+      classRef.current = customClass;
       control.start("visible");
     } else {
+      classRef.current = null;
       control.start("hidden");
     }
-  }, [control, inView]);
+  }, [control, customClass, inView]);
 
-  return { ref, animate: control };
+  return {
+    ref,
+    animate: control,
+    ...(customClass && !classRef.current && { className: customClass }),
+  };
 };
 
 export default useScroll;
