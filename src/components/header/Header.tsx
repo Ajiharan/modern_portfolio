@@ -10,8 +10,8 @@ const Header = () => {
   };
 
   const toggleMode = () => {
-    const html = document.querySelector("html");
-    console.log("html", html);
+    let html = document.querySelector<HTMLElement>("html");
+    html?.classList.toggle("light");
   };
 
   return (
@@ -45,6 +45,15 @@ const Header = () => {
           Resume
         </a>
       </nav>
+      <div
+        aria-expanded={hasSidepanel ? "true" : "false"}
+        aria-haspopup="true"
+        aria-label={hasSidepanel ? "short menu" : "long menu"}
+        className={hasSidepanel ? "menu active" : "menu"}
+        onClick={() => {
+          setSidePanel(!hasSidepanel);
+        }}
+      ></div>
     </HeaderContainer>
   );
 };

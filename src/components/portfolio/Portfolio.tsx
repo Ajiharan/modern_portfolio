@@ -108,7 +108,7 @@ const Portfolio = () => {
           tech={[
             { id: 1, name: "Flutter" },
             { id: 2, name: "Firebase" },
-            { id: 2, name: "Nodejs" },
+            { id: 3, name: "Nodejs" },
           ]}
         />
         <Project

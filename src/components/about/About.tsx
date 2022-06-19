@@ -1,12 +1,13 @@
 import { Container } from "./style";
 import { motion } from "framer-motion";
-import cssIcon from "../../assets/css-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import nodeIcon from "../../assets/node-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
+import cssIcon from "assets/css-icon.svg";
+import htmlIcon from "assets/html-icon.svg";
+import jsIcon from "assets/js-icon.svg";
+import nodeIcon from "assets/node-icon.svg";
+import reactIcon from "assets/react-icon.svg";
+import typescriptIcon from "assets/typescript-icon.svg";
+import vueIcon from "assets/vue-icon.svg";
+import angularIcon from "assets/angular-icon.svg";
 import useScroll from "hooks/useScroll";
 
 export function About() {
@@ -158,6 +159,18 @@ export function About() {
               }}
             >
               <img src={jsIcon} alt="React" />
+            </motion.div>
+          </div>
+          <div className="hability">
+            <motion.div
+              {...useScroll()}
+              initial="hidden"
+              variants={{
+                visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+                hidden: { opacity: 0, y: -10 },
+              }}
+            >
+              <img src={angularIcon} alt="React" />
             </motion.div>
           </div>
         </div>

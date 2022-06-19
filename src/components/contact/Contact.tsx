@@ -5,7 +5,7 @@ import phoneIcon from "../../assets/phone-icon.svg";
 import Form from "components/contact-form/Form";
 const Contact = () => {
   return (
-    <Container id="contato">
+    <Container id="contact">
       <header>
         <h2>Contact me</h2>
         <p>

@@ -42,7 +42,7 @@ const Form = () => {
         >
           Back to Top
         </button>
-        <ToastContainer autoClose={2000} />
+        <ToastContainer autoClose={1000} />
       </ContainerSucces>
     );
   }
@@ -89,7 +89,7 @@ const Form = () => {
           Submit
         </button>
       </form>
-      <ToastContainer autoClose={2000} />
+      <ToastContainer autoClose={1000} />
     </Container>
   );
 };
