@@ -15,18 +15,20 @@ export function About() {
       <div className="about-text">
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, x: 0, transition: { duration: 0.4 } },
-            hidden: { opacity: 0, x: -400 },
+            hidden: { opacity: 0, x: -100 },
           }}
         >
           <h2>About me</h2>
         </motion.div>
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-            hidden: { opacity: 0, x: -400 },
+            hidden: { opacity: 0, x: -100 },
           }}
         >
           <p>
@@ -38,9 +40,10 @@ export function About() {
         </motion.div>
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, x: 0, transition: { duration: 0.55 } },
-            hidden: { opacity: 0, x: -400 },
+            hidden: { opacity: 0, x: -100 },
           }}
         >
           <p>
@@ -51,9 +54,10 @@ export function About() {
         </motion.div>
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, x: 0, transition: { duration: 0.6 } },
-            hidden: { opacity: 0, x: -400 },
+            hidden: { opacity: 0, x: -100 },
           }}
         >
           <p>
@@ -63,9 +67,10 @@ export function About() {
         </motion.div>
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
-            hidden: { opacity: 0, x: -400 },
+            hidden: { opacity: 0, x: -100 },
           }}
         >
           <h3>Here are my main skills:</h3>
@@ -74,6 +79,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.1 } },
                 hidden: { opacity: 0, y: -10 },
@@ -85,6 +91,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
                 hidden: { opacity: 0, y: -10 },
@@ -96,6 +103,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
                 hidden: { opacity: 0, y: -10 },
@@ -107,6 +115,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
                 hidden: { opacity: 0, y: -10 },
@@ -118,6 +127,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
                 hidden: { opacity: 0, y: -10 },
@@ -129,6 +139,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
                 hidden: { opacity: 0, y: -10 },
@@ -140,6 +151,7 @@ export function About() {
           <div className="hability">
             <motion.div
               {...useScroll()}
+              initial="hidden"
               variants={{
                 visible: { opacity: 1, y: 0, transition: { duration: 0.7 } },
                 hidden: { opacity: 0, y: -10 },
@@ -153,6 +165,7 @@ export function About() {
       <div className="about-image">
         <motion.div
           {...useScroll()}
+          initial="hidden"
           variants={{
             visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
             hidden: { opacity: 0, scale: 0 },

@@ -8,32 +8,60 @@ import useScroll from "hooks/useScroll";
 const Profile = () => {
   return (
     <Container id="home">
-      <motion.div className="hero-text " {...useScroll()} initial="hidden">
+      <div className="hero-text ">
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: 100 }}
-          transition={{ ease: "easeOut", duration: 0.2 }}
+          {...useScroll()}
+          initial="hidden"
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 30,
+              transition: { duration: 0.2, ease: "easeIn" },
+            },
+            hidden: { opacity: 0, y: 0 },
+          }}
         >
           <p>Hello 👋, I'm</p>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: 100 }}
-          transition={{ ease: "easeIn", duration: 0.25 }}
+          {...useScroll()}
+          initial="hidden"
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 30,
+              transition: { duration: 0.2, ease: "easeIn" },
+            },
+            hidden: { opacity: 0, y: 0 },
+          }}
         >
           <h1>Baskaran Ajiharan</h1>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: 100 }}
-          transition={{ ease: "easeIn", duration: 0.4 }}
+          {...useScroll()}
+          initial="hidden"
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 30,
+              transition: { duration: 0.3, ease: "easeIn" },
+            },
+            hidden: { opacity: 0, y: 0 },
+          }}
         >
           <h3>Full stack developer</h3>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: 100 }}
-          transition={{ ease: "easeIn", duration: 0.6 }}
+          {...useScroll()}
+          initial="hidden"
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 30,
+              transition: { duration: 0.4, ease: "easeIn" },
+            },
+            hidden: { opacity: 0, y: 0 },
+          }}
         >
           <p className="small-resume">
             I'm a Software Engineer with a focus on web development with
@@ -41,26 +69,32 @@ const Profile = () => {
           </p>
         </motion.div>
         <motion.div
-          style={{ height: "100px" }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1, y: 100 }}
-          transition={{ ease: "easeIn", duration: 0.7 }}
+          {...useScroll()}
+          initial="hidden"
+          variants={{
+            visible: {
+              opacity: 1,
+              y: 30,
+              transition: { duration: 0.6, ease: "easeIn" },
+            },
+            hidden: { opacity: 0, y: 0 },
+          }}
         >
           <NavHashLink smooth to="#contact" className="button">
             Contact
           </NavHashLink>
         </motion.div>
-      </motion.div>
+      </div>
       <div className="hero-image">
         <motion.div
+          {...useScroll()}
           initial="hidden"
-          animate="visible"
           variants={{
             visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
             hidden: { opacity: 0, scale: 0 },
           }}
         >
-          <img src={Illustration} alt="Ilustração" />
+          <img src={Illustration} alt="illustrate" />
         </motion.div>
       </div>
     </Container>
