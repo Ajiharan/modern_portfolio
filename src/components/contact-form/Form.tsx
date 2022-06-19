@@ -34,15 +34,15 @@ const Form = () => {
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>Get in touch using the form below</h3>
+        <h3>Thank you for the submission</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
-          Voltar ao topo
+          Back to Top
         </button>
-        <ToastContainer />
+        <ToastContainer autoClose={2000} />
       </ContainerSucces>
     );
   }
@@ -77,7 +77,7 @@ const Form = () => {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6LcCuYAgAAAAAACQuzRP3j8aTbXkwfyl_5OEtp_R"
+          sitekey="6LcnwIAgAAAAAKeESRSdTJWephcnPsgglVboPQm6"
           onChange={(e) => {
             setIsHuman(true);
           }}
@@ -89,7 +89,7 @@ const Form = () => {
           Submit
         </button>
       </form>
-      <ToastContainer />
+      <ToastContainer autoClose={2000} />
     </Container>
   );
 };
