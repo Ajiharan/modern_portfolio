@@ -185,8 +185,8 @@ export function About() {
           }}
         >
           <img
-            src="https://media-exp1.licdn.com/dms/image/D5603AQEgMkt9JJmUwA/profile-displayphoto-shrink_800_800/0/1641133581415?e=1660780800&v=beta&t=kQhE04QgjzjE3Pl5OCsFTkFpWenxAhFPjFgspJ-mx7U"
-            alt="Imagem de perfil"
+            src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/276002728_4868966156557520_2088393938092186695_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=5yHXEBi4DdwAX_sU9gT&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT9f7dgF_5W1XkFmuqww6ulfpbqWO4vNnV8ze5jLOn_7Sg&oe=62B46C16"
+            alt="profile"
           />
         </motion.div>
       </div>

@@ -41,7 +41,12 @@ const Header = () => {
         <NavHashLink smooth to="#contact" onClick={closeMenu}>
           Contact
         </NavHashLink>
-        <a href="" download className="button">
+        <a
+          href="https://firebasestorage.googleapis.com/v0/b/thurkastores.appspot.com/o/Ajiharan_%20Baskaran__SE.pdf?alt=media&token=f98f5c34-6490-4217-a771-d5c1193cba73"
+          className="button"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Resume
         </a>
       </nav>
