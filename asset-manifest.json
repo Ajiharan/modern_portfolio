@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/modern_portfolio/static/css/main.6332dac0.css",
-    "main.js": "/modern_portfolio/static/js/main.3729977f.js",
+    "main.js": "/modern_portfolio/static/js/main.49c60907.js",
     "static/js/937.767aa648.chunk.js": "/modern_portfolio/static/js/937.767aa648.chunk.js",
     "static/js/787.864ef7df.chunk.js": "/modern_portfolio/static/js/787.864ef7df.chunk.js",
+    "static/media/github.png": "/modern_portfolio/static/media/github.a855c3975c028d8069f5.png",
+    "static/media/linkedin.png": "/modern_portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/illustration.svg": "/modern_portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/sass-icon.svg": "/modern_portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/mysql-icon.svg": "/modern_portfolio/static/media/mysql-icon.e5a509a5d3ca7443ae6ccf379181381d.svg",
@@ -24,12 +26,12 @@
     "static/media/github-icon.svg": "/modern_portfolio/static/media/github-icon.c48bfb2a53c47ee345a50672e3d24e07.svg",
     "static/media/external-link-icon.svg": "/modern_portfolio/static/media/external-link-icon.97075d22dfb22a8c8d253b264e892b5f.svg",
     "main.6332dac0.css.map": "/modern_portfolio/static/css/main.6332dac0.css.map",
-    "main.3729977f.js.map": "/modern_portfolio/static/js/main.3729977f.js.map",
+    "main.49c60907.js.map": "/modern_portfolio/static/js/main.49c60907.js.map",
     "937.767aa648.chunk.js.map": "/modern_portfolio/static/js/937.767aa648.chunk.js.map",
     "787.864ef7df.chunk.js.map": "/modern_portfolio/static/js/787.864ef7df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6332dac0.css",
-    "static/js/main.3729977f.js"
+    "static/js/main.49c60907.js"
   ]
 }
