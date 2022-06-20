@@ -8,6 +8,15 @@ const Portfolio = () => {
 
       <div className="projects">
         <Project
+          name="Screen Recorder Project"
+          desc="This a desktop application project(for record and download recorded videos), electron framework is used to develop the project"
+          github="https://github.com/Ajiharan/screen_recorder_desktop"
+          tech={[
+            { id: 1, name: "React" },
+            { id: 2, name: "Electron" },
+          ]}
+        />
+        <Project
           name="Instagram Reels Clone"
           desc="Instagram Reels Clone"
           github="https://github.com/Ajiharan/instagram-reels-clone"
@@ -60,18 +69,11 @@ const Portfolio = () => {
           ]}
           link="https://clone-app-3ff66.firebaseapp.com/"
         />
-        <Project
-          name="Screen Recorder Project"
-          desc="This a desktop application project(for record and download recorded videos),electron framework is used to develop the project"
-          github="https://github.com/Ajiharan/screen_recorder_desktop"
-          tech={[
-            { id: 1, name: "React" },
-            { id: 2, name: "Electron" },
-          ]}
-        />
+
         <Project
           name="TimeTable Management Project"
-          desc="This a desktop application project(creating timetable for students who are studying in XYZ campus),electron framework is used to develop the project"
+          desc="This a desktop application project(creating timetable for students who
+             are studying in XYZ campus),electron framework is used to develop the project"
           github="https://github.com/Ajiharan/electron_desktopApp"
           tech={[
             { id: 1, name: "React" },
@@ -79,9 +81,11 @@ const Portfolio = () => {
             { id: 3, name: "Electron" },
           ]}
         />
+
         <Project
           name="Google OAuth 2.0 project"
-          desc="This a google OAuth authentication project to manage google drive.reactjs and nodejs are used to develop the project"
+          desc="This a google OAuth authentication project to manage google drive.reactjs 
+          and nodejs are used to develop the project"
           github="https://github.com/Ajiharan/electron_desktopApp"
           tech={[
             { id: 1, name: "React" },
@@ -89,6 +93,7 @@ const Portfolio = () => {
             { id: 3, name: "GCP" },
           ]}
         />
+
         <Project
           name="Admin Panel Project"
           desc="Angular,nodejs,express js,mongodb are the technologies used to develop the project"

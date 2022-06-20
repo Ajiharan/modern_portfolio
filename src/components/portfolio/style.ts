@@ -118,15 +118,29 @@ export const Container = styled.section`
     animation-duration: 2s;
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 1200px) {
     .projects {
       grid-template-columns: 1fr 1fr;
     }
   }
 
-  @media (max-width: 740px) {
+  @media (max-width: 960px) {
     .projects {
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 480px) {
+    .projects {
+      .project {
+        width: 75vw;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .projects {
+      .project {
+        width: 70vw;
+      }
     }
   }
 `;
